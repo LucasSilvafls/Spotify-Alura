@@ -1,0 +1,121 @@
+/* HEADER */
+
+.main_container{
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 370px;
+}
+
+.header_navigation{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+    width: 1138px;
+}
+
+
+/* HEADER botões de seta*/
+.header_navigation .navigation_buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_navigation .navigation_buttons .arrow_left{
+    margin-right: 1.25rem;
+}
+
+.arrow_left, .arrow_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header_content{
+    display: flex;
+    align-items: center;
+}
+
+
+/* HEADER área de pesquisa*/
+
+.header_search{
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-right: 170px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header_search img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header_search input{
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+
+/*  separando a área de login dos outros botões de texto*/
+.login_area_header{
+    margin-left: 1rem;
+}
+
+.login_area_header .signup_header{
+    color: #A7A7A7;
+    font-size: 16PX;
+    font-weight: 700;
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.login_area_header .signin_header{
+    width: 110px;
+    height: 48px;
+    color: #0000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 9999px;
+    color:#121212;
+    cursor: pointer;
+}
+
+.premium_header, .suport_header, .download_header{
+    background-color: transparent;
+    color: #b3b3b3;
+    border: none;
+    font-weight: 550;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.divider{
+    color: #b3b3b3;
+    margin-left: 10px;
+}
