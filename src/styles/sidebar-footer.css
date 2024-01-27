@@ -1,6 +1,6 @@
 body{
-    background-color: black;
     font-family: var(--font-dm-sans);
+    background-color: #000000;
 }
 
 
@@ -11,7 +11,8 @@ body{
     left: 0;
     bottom: 0;
     padding: 12px;
-    width: 360px; /* o original é 350px */   
+    width: 360px; /* o original é 350px */
+    background-color: #000000;
 }
 
 
@@ -34,7 +35,7 @@ body{
 }
 
 .sidebar nav ul {
-    margin-top: 20px;
+    margin-top: -8px;
     padding: 0 20px 10px 14px;
 }
 
@@ -46,7 +47,6 @@ body{
     text-decoration: none;
     font-weight: 550; /*O original é 600 */
     font-size: 16px; /*O original é 14px */
-
 }
 
 .fa-home, .fa-search{
