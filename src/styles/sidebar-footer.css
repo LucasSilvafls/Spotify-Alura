@@ -4,25 +4,24 @@ body{
 }
 
 
-/* barra lateral 1° */
+/* BARRA LATERAL */
 .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    padding: 12px;
+    padding: 12px 0px 0px 0px;
     width: 360px; /* o original é 350px */
     background-color: #000000;
 }
 
-
-/* barra lateral 1° bloco */
 .sidebar_navegation {
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 0;
 }
 
+/* ajuste da logo*/
 .sidebar_navegation .logo {
     background-color: #121212;
     display: flex;
@@ -34,6 +33,7 @@ body{
     width: 80px; /*O original é 80px */
 }
 
+/* ajuste do 1° bloco */
 .sidebar nav ul {
     margin-top: -8px;
     padding: 0 20px 10px 14px;
@@ -53,13 +53,8 @@ body{
     padding: 10px;
 }
 
-/* se quiser
-.sidebar nav ul li a span {
-    padding-right: 12px;
-}
-*/
 
-/* barra lateral 2°*/
+/* estilo "sua biblioteca" */
 .library {
     background-color: #121212;
     border-radius: 8px;
@@ -105,8 +100,7 @@ body{
     margin: 24px 10px;
 }
 
-/* estilizando as sections playlist e podcast */
-
+/* estilo sections playlist e podcast */
 .playlist, .podcast{
     display: flex;
     align-items: flex-start;
@@ -154,7 +148,7 @@ body{
     font-size: 14px;
 }
 
-/* Editando os botões playlist e podcast */
+/* estilo botões playlist e podcast */
 .playlist_content .button_playlist, .podcast_content .button_podcast{
     display: flex;
     justify-content: center;
@@ -174,7 +168,7 @@ body{
 }
 
 
-/* área de cookies */
+/* cookies */
 .sidebar .cookies{
     margin: 25px 20px;
 }
@@ -203,6 +197,7 @@ body{
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+    margin-top: 98px;
 }
 
 /* footer completo */
@@ -241,6 +236,7 @@ footer .premium_legend{
     font-size: 16px;
 }
 
+/* estilo botão "inscreva-se */
 footer .button_premium{
     padding-right: 40px;
 }
@@ -259,4 +255,3 @@ footer button{
     flex-shrink: 0;
     cursor: pointer;
 }
-
