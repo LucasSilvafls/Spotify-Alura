@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
     <link rel="stylesheet" href="./src/styles/main-content.css">
-    <link rel="stylesheet" href="script.js">
-    <link rel="stylesheet" href="/src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/media-query.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <link rel="stylesheet" href="https:/use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
@@ -100,7 +100,7 @@
 
                 <div class="header_search">
                     <img src="./src/assets/icons/search.png" alt="">
-                    <input id="search-type" type="text" maxlength="800" placeholder="O que você quer ouvir hoje?"/>
+                    <input id="search_input" type="text" maxlength="800" placeholder="O que você quer ouvir hoje?"/>
                 </div>
 
                 <div class="header_content">
@@ -247,6 +247,25 @@
                         </div>
                     </div>
                 </div>
+                
+                <div id="result_artist" class="hidden">
+                    <div class="grid_container">
+                        <div class="artist_card" id="">
+                            <div class="card_image">
+                                <img id="artist_image" class="artist_image" />
+                                <div class="play">
+                                    <span class="fa fa-solid fa-play"></span>
+                                </div>
+                            </div>
+                        
+                            <div class="card_text">
+                                <a title="Foo Fighters" class="vst" href=""></a>
+                                <span class="artist_name" id="artist_name"></span>
+                                <span class="artist_categorie">Artista</span>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -267,7 +286,8 @@
             </a>
         </div>
     </footer>
-</div>
+    
+    <script type="text/javascript" src="./search.js"></script>
 
     
 </body>

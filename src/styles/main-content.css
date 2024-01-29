@@ -144,11 +144,12 @@
     color: #ffff;
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
   
 /* SCROLL */
 .offer__scroll-container {
-    max-height: 63vh;
+    max-height: 61.8vh;
     overflow-y: auto;
     padding: 15px 10px 10px 25px
 }
@@ -165,7 +166,7 @@
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 9px;
+    grid-gap: 14px;
     gap: 14px;
     margin-bottom: 25px;
 }
@@ -242,4 +243,117 @@
     height: auto;
     width: 107px;
     transform: rotate(25deg) translate(18%, -2%);
+}
+
+/* CARD ARTISTA */
+.artist {
+    --column-count: 5;
+    --grid-gap: 24px;
+    --min-container-width: 372px;
+}
+  
+.hidden {
+    display: none;
+}
+  
+.grid_container {
+    grid-gap: var(--grid-gap);
+    display: grid;
+    grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
+    min-width: var(--min-container-width);
+    justify-content: start;
+}
+  
+.artist_card {
+    background: #181818;
+    border-radius: 8px;
+    -ms-flex: 1;
+    flex: 1;
+    isolation: isolate;
+    padding: 35px 35px 20px 15px;
+    position: relative;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+  
+.artist_card:hover {
+    background-color: #252525;
+}
+  
+.card_image {
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+}
+  
+.artist_image {
+    height: 115%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 115%;
+    border-radius: 50%;
+}
+
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 62px;
+}
+  
+.card_text a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+  
+.artist_name {
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-block-end: 8px;
+    margin-top: 22px;
+}
+  
+.artist_categorie {
+    color: #6a6a6a;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+  
+.play {
+    position: relative;
+}
+  
+.play .fa-play {
+    position: absolute;
+    right: -15px;
+    top: 140px;
+    padding: 18px;
+    background-color: #1db954;
+    border-radius: 100%;
+    font-size: 14px;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+  
+.artist_card:hover .play .fa-play {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+  
+.play .fa-play:hover {
+    padding: 20px;
+    cursor: pointer;
+}
+  
+#result_artist {
+    padding: 20px 40px;
 }
