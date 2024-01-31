@@ -183,7 +183,7 @@
 .cards span {
     padding: 16px;
     position: absolute;
-    color: var(--text-base-light);
+    color: #ffff;
     font-size: 24px;
     font-weight: 700;
 }
@@ -261,7 +261,6 @@
     display: grid;
     grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
     min-width: var(--min-container-width);
-    justify-content: start;
 }
   
 .artist_card {
@@ -270,10 +269,10 @@
     -ms-flex: 1;
     flex: 1;
     isolation: isolate;
-    padding: 35px 35px 20px 15px;
+    padding: 16px;
     position: relative;
     transition: background-color 0.3s ease;
-    width: 100%;
+    z-index: 1;
 }
   
 .artist_card:hover {
@@ -288,11 +287,11 @@
 }
   
 .artist_image {
-    height: 115%;
+    height: 100%;
     left: 0;
     position: absolute;
     top: 0;
-    width: 115%;
+    width: 100%;
     border-radius: 50%;
 }
 
@@ -334,7 +333,7 @@
   
 .play .fa-play {
     position: absolute;
-    right: -15px;
+    right: 0;
     top: 140px;
     padding: 18px;
     background-color: #1db954;

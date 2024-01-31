@@ -1,11 +1,17 @@
 {
   "artists": [
-    { "id": 1, "name": "Foo Fighters", "genre": "Rock", "urlImg": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15" },
-    { "id": 2, "name": "Michael Jackson", "genre": "Pop", "urlImg": "https://i.scdn.co/image/ab676161000051740e08ea2c4d6789fbf5cbe0aa" },
-    { "id": 3, "name": "Emicida", "genre": "Hip Hop", "urlImg": "https://i.scdn.co/image/ab67616100005174908b4b4bc90e1518b68b4068" },
-    { "id": 4, "name": "Chitãozinho e Xororó", "genre": "Sertanejo", "urlImg": "https://i.scdn.co/image/ab676161000051744606c59411c57f7b49588be4" },
-    { "id": 5, "name": "Mc Coringa", "genre": "Funk", "urlImg": "https://i.scdn.co/image/ab67616d00001e02fe8f6dd361ad0f12b88c7f56" },
-    { "id": 6, "name": "Arlindo Cruz", "genre": "Samba", "urlImg": "https://i.scdn.co/image/ab67616100005174181873f93056642d7b340839" },
-    { "id": 7, "name": "Caetano Veloso", "genre": "MPB", "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757" }
+    { "id": 1, "name": "Matuê", "genre": "Trap", "urlImg": "/src/Cards artista/Matue.png" },
+    { "id": 2, "name": "Bin", "genre": "Lovesong", "urlImg": "/src/Cards artista/Bin.png" },
+    { "id": 3, "name": "Baco Exu do Blues", "genre": "Blues", "urlImg": "/src/Cards artista/Baco.png" },
+    { "id": 4, "name": "Xamã", "genre": "Lovesong", "urlImg": "/src/Cards artista/Xamã.png" },
+    { "id": 5, "name": "Borges", "genre": "Trap", "urlImg": "/src/Cards artista/Borges.png" },
+    { "id": 6, "name": "Major RD", "genre": "Trap", "urlImg": "/src/Cards artista/Major RD.png" },
+    { "id": 7, "name": "Kevin", "genre": "Funk", "urlImg": "/src/Cards artista/Kevin.png" },
+    { "id": 8, "name": "Dfideliz", "genre": "Trap", "urlImg": "/src/Cards artista/Dfideliz.png" },
+    { "id": 9, "name": "BK", "genre": "Lovesong", "urlImg": "/src/Cards artista/BK.png" },
+    { "id": 10, "name": "Ryu, the Runner", "genre": "Trap", "urlImg": "/src/Cards artista/Ryu.png" },
+    { "id": 11, "name": "Pumpapjl", "genre": "Rap", "urlImg": "/src/Cards artista/Pumapjl.png" },
+    { "id": 12, "name": "BlackAlien", "genre": "MPB", "urlImg": "/src/Cards artista/BlackAlien.png" },
+    { "id": 13, "name": "Charlie Brown Jr", "genre": "Rap", "urlImg": "/src/Cards artista/CharlieBrown.png" }
   ]
 }
