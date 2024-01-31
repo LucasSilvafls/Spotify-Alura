@@ -34,11 +34,16 @@
     justify-content: center;
     width: 32px;
     height: 32px;
-    background: var(--bg-icon);
     background-color: var(--bg-arrow-color);
     border: none;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.navigation_buttons .arrow_left:hover,
+.navigation_buttons .arrow_right:hover{
+    transform: scale(1.1);
+    background-color: #fff;
 }
 
 
@@ -112,6 +117,22 @@
     cursor: pointer;
 }
 
+.login_area_header .signin_header:hover{
+    transform: scale(1.1);
+}
+
+.login_area_header .signup_header:hover{
+    transform: scale(1.1);
+    color: #ffff;
+}
+
+.header_content .premium_header:hover,
+.header_content .suport_header:hover,
+.header_content .download_header:hover{
+    transform: scale(1.1);
+    color: #ffff;
+}
+
 .divider{
     color: #b3b3b3;
     margin-left: 10px;
@@ -178,6 +199,10 @@
     height: 220px;
     overflow: hidden;
     border-radius: 8px;
+}
+
+.cards:hover {
+    transform: scale(1.05);
 }
   
 .cards span {
@@ -326,7 +351,12 @@
     font-weight: 400;
     font-size: 0.875rem;
 }
-  
+
+#result_artist {
+    padding: 20px 40px;
+}
+
+/* estilizando botão play */
 .play {
     position: relative;
 }
@@ -353,6 +383,4 @@
     cursor: pointer;
 }
   
-#result_artist {
-    padding: 20px 40px;
-}
+

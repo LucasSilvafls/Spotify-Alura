@@ -35,13 +35,13 @@ body{
 
 /* ajuste do 1° bloco */
 .sidebar nav ul {
-    margin-top: -8px;
     padding: 0 20px 10px 14px;
 }
 
 .sidebar ul li {
-    padding: 10px 0 0 0;
+    padding: 5px 0 0 0;
 }
+
 .sidebar nav ul li a {
     color: #b3b3b3;
     text-decoration: none;
@@ -49,9 +49,15 @@ body{
     font-size: 16px; /*O original é 14px */
 }
 
+.sidebar nav ul li a:hover {
+    color: #fff;
+}
+
+
 .fa-home, .fa-search{
     padding: 10px;
 }
+
 
 
 /* estilo "sua biblioteca" */
@@ -85,7 +91,12 @@ body{
     text-decoration: none;
     text-transform: none;
     align-items: center;
+    cursor: pointer;
     /* padding: 22px 10px; */
+}
+
+.library .library_button:hover{
+    color: #fff;
 }
 
 .library .library_button .fa-bookmark{
@@ -98,6 +109,11 @@ body{
 
 .library .library_content .fa-plus{
     margin: 24px 10px;
+}
+
+.library .library_content .fa-plus:hover{
+    color: #fff;
+    background-color: rgba(24, 24, 24, 0.9);
 }
 
 /* estilo sections playlist e podcast */
@@ -167,6 +183,14 @@ body{
     align-items: center;
 }
 
+.button_playlist:hover{
+    transform: scale(1.1);
+}
+
+.button_podcast:hover{
+    transform: scale(1.1);
+}
+
 
 /* cookies */
 .sidebar .cookies{
@@ -198,6 +222,10 @@ body{
     padding: 8px;
     border-radius: 20px;
     margin-top: 98px;
+}
+
+.languages .languages_button:hover{
+    transform: scale(1.1);
 }
 
 /* footer completo */
@@ -239,6 +267,10 @@ footer .premium_legend{
 /* estilo botão "inscreva-se */
 footer .button_premium{
     padding-right: 40px;
+}
+
+footer button:hover{
+    transform: scale(1.1);
 }
 
 footer button{
