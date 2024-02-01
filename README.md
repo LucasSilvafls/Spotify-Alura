@@ -16,14 +16,14 @@ Optei por realizar o deploy pelo github pages, o projeto pode ser acessado no li
 
 <img align="center" src="./src/assets/icons/favicon.png" height=19/> <code>[Link do projeto](https://lucassilvafls.github.io/Spotify-Alura/) </code>
 
-<a href="https://imgur.com/qHStlBV"><img src="https://i.imgur.com/qHStlBV.mp4" title="source: imgur.com" /></a>
+![2024-02-0115-50-29-ezgif com-optimize](https://github.com/LucasSilvafls/Spotify-Alura/assets/134730654/2e0c30a1-df91-4ba3-ab56-ce8abe29d88f)
 
 # API Local
 Foi criada uma API local de teste em JSON com alguns artistas (contém: nome, gênero musical e cards de imagem). Pode ser vista em operação pela barra de pesquisa.
 
 <code> Confira a API funcionando no gif abaixo </code>
 
-<a href="https://imgur.com/gTVGtPo"><img src="https://i.imgur.com/gTVGtPo.mp4" title="source: imgur.com" /></a>
+![2024-02-0116-21-32-ezgif com-video-to-gif-converter](https://github.com/LucasSilvafls/Spotify-Alura/assets/134730654/d196951d-94fb-438c-bccd-d412dbf8acb1)
 # Como rodar o projeto
 
 1. Clone este repositório usando `https://github.com/LucasSilvafls/Spotify-Alura.git`
